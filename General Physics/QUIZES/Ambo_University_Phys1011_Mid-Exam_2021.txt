@@ -1,0 +1,42 @@
+AMBO UNIVERSITY — College of Natural and Computational Science, Department of Physics
+General Physics (Phys 1011) — Mid-Exam, August 25, 2021 — Time allowed: 2 hrs
+Source: https://www.scribd.com/document/629364971/YDM-Ambo-University-phy-exam
+=====================================================================
+
+SECTION I: TRUE/FALSE — Write TRUE if the statement is Correct and FALSE if the statement is Incorrect.
+1. Average velocity and average acceleration of an object do not provide the detail information through the entire motion.
+2. Zeros that follow a (decimal point / significant digit — text blurred in source) are always significant.
+3. The direction of the velocity of a body can change when its acceleration is constant.
+4. An object that is free falling is acted upon by the force of gravity alone.
+5. In projectile motion, the horizontal motion is considered as a motion with constant acceleration while the vertical motion is with constant velocity.
+
+SECTION II: MULTIPLE CHOICE — Choose the letter of best answer from the given alternatives.
+1. Which one of the following refers to the uncertainty in measurement?
+   A. Deviation of the measured value from true value
+   B. Random error in measurement
+   C. Systematic error in measurement
+   D. All of them
+2. By significant figure rules 2.5 × 1.5 =
+   A. 3   B. 3.7   C. 3.8   D. 3.75
+3. The magnitudes of two vectors A and B are A = 12 units and B = 8 units. Which of the following pairs of numbers represents the largest and smallest possible values for the magnitude of the resultant vector R = A + B?
+   A. 12 units, 8 units
+   B. 14.4 units, 4 units
+   C. 20 units, 4 units
+   D. 12 units, 4 units
+4. A bike accelerates uniformly from rest to a speed of 10 m/s over a distance of 50 m. The acceleration of the bike is
+   A. 1.33 m/s^2   B. 1 m/s^2   C. 2 m/s^2   D. 3 m/s^2   E. None
+5. Which of the following is not an example of accelerated motion?
+   A. Vertical component of projectile motion
+   B. Circular motion at constant speed
+   C. Earth's motion about sun
+   D. Horizontal component of projectile motion
+6. A ball is thrown vertically upwards with 40 m/s. Its velocity after two seconds will be
+   A. 19.6 m/s   B. 20 m/s   C. 50 m/s   D. 20.4 m/s
+7. A cannon points at 60° above the horizontal and fires a ball from ground level with a muzzle speed of 20 m/s. The horizontal range is (Use cos 60° = 0.5, sin 60° = 0.87 and g = 10 m/s^2)
+   A. 20 m   B. 40 m   C. 69.2 m   D. 34.8 m   E. None
+8. Which one of the following is NOT (an illustration of) Newton's first law and inertia:
+   A. A book lying on the table will remain at rest, until it is moved by some external agencies.
+   B. A person standing in a bus falls backward when the bus suddenly starts moving.
+   C. A passenger sitting in a moving car falls forward, when the car stops suddenly.
+   D. When a bus moving along a straight line takes a turn to the right, the passengers are thrown towards left.
+   E. None

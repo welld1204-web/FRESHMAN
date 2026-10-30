@@ -1,0 +1,44 @@
+BAHIR DAR UNIVERSITY — Department of Physics, College of Science [Dec 2025]
+General Physics (Phys 1011) — Worksheet-I
+Source: https://www.scribd.com/document/960787468/Ethiopian-freshman-General-physics-worksheet
+=====================================================================
+
+CHAPTER 1 (Measurements & Vectors)
+1. An analogue thermometer is graduated in intervals of 0.5°C. What is the measurement uncertainty associated with this thermometer?
+2. The sides of a rectangle are measured to be (5.45 ± 0.05) cm and (9.25 ± 0.05) cm. Find the perimeter and area of the rectangle with appropriate significant digit.
+3. The time (t) it takes an object to fall freely from rest a distance (d) is given by the formula: t = sqrt(2d/g), where g = 9.8 m/s^2 is the acceleration due to gravity. An object fell (12.5 ± 0.5) m. How long did this take?
+4. State the number of significant figures in each of the following. (a) 231 (b) 50022 (c) 20600 (d) 0.00702 (e) 5.70 × 10^5 (f) 1.0008 (g) 5 × 10^3 (h) 5.00 × 10^3
+5. If the component of vector along the direction of another vector is zero, what can you conclude about the two vectors?
+6. Let three vectors A = 2i − 4j + 3k, B = −i + 2j − k, C = 3i + 4j + 5k be given. Find (a) A + B, (b) |B − C|, (c) A × (B − 2C), (d) (A + C) · (B × C), (e) a unit vector in the direction of A + B, (f) the angle between B and (A + C).
+7. Assume vector A has a magnitude of 8 unit and makes an angle of 60° with the x-axis. Vector B has magnitude 6 unit and makes an angle of 30° with the x-axis. What is the magnitude and direction of vector C = A + B.
+8. Vector A has x and y components of −5.7 cm and 12 cm, respectively. Vector B has x and y components of 10.2 cm and −8.6 cm, respectively. If A − B + 5C = 0, what are the components of C?
+9. Vector A has a negative x component 4 units in length and a positive y component 3 units in length. (a) Determine the magnitude and direction of A. (b) What vector when added to A gives a resultant vector with no x-component and a negative y-component 9 units in length?
+10. Find the angle between two vectors of equal magnitude, such that the magnitude of the resultant is half of either of the two vectors.
+11. Let A = 4i + 3j, B = 6i + 4j. Find the scalars a and b such that aA + bB = i + j.
+
+CHAPTER 2 (Kinematics & Dynamics)
+1. A student walks first 70 m in the direction 37° north of east, and then walks 82 m in the direction 20° south of east, and finally walks 28 m in the direction 30° west of north. (a) How far and at what angle is the student's final position from her initial position? (b) In what direction would she have to head to return to her initial position?
+2. A particle starts from the origin at t = 0 with initial velocity components v_x0 = 20 m/s, v_y0 = −15 m/s, and a constant acceleration in the x-direction: a_x = 4 m/s^2, a_y = 0. (a) Velocity components and velocity vector at time t. (b) Velocity and speed at t = 5 s.
+3. At t = 0 s, a particle moving in the xy-plane with constant acceleration has a velocity v_i = (3i − 4j) m/s, and is at the origin. At t = 4 s, the velocity is v_f = (9i + 7j) m/s. Find (a) the acceleration of the particle, (b) its coordinates at t = 4 s.
+4. An object is at origin at t = 0 s and moves along the x axis according to the velocity-time graph. (a) What is the object's acceleration between 4 s and 9 s? (b) What is the object's acceleration between 13 s and 15 s? (c) What is the displacement of the object? (d) Draw the acceleration-time graph of the motion.
+5. A stone that is dropped freely from rest traveled half the total height in the last second. With what velocity will it strike the ground?
+6. Coin I is thrown upward from the top of a 320 m tower with a speed of 12 m/s. Coin II is dropped from the top of the tower 4.0 s later. Assume g is 12 m/s^2. How far below the top of the tower does coin I pass coin II?
+7. If a projectile thrown vertically upward rises to a height of 500 m, what is the range and the velocity it was thrown?
+8. Let the initial speed be u, projection angle be θ, gravity be g, maximum height be H, range be R and total flight time be T. Show that tan θ = 4H/R, and H = gT^2/8.
+9. A projectile is fired with an initial velocity v_o such that it passes two points both a distance h above the horizontal. Show that if the gun is adjusted for a maximum range, then separation of points is d = (v_o/g)·sqrt(v_o^2 − 4gh).
+10. At the moment the traffic light turns green, a car starts from rest with a constant acceleration of 8 m/s^2. At the same time, a bus is traveling at a constant speed of 40 m/s and is passing the car. (a) How long will it take for the car to overtake the bus? (b) How far beyond the starting point will the car overtake the bus? (c) What speed will the car be traveling at that moment?
+11. A man pulls a block weighing 20 kg a distance of 10 m on a horizontal rough surface (coefficient of kinetic friction, μk = 0.30) at a constant speed by applying a force at an angle of 53° with the horizontal. Calculate (a) the magnitude of the applied force (b) the work done by frictional force.
+12. The position of an object is related to time by x = 3t^2 − 8t + 70, where x is in meters and t is in seconds. Find (a) the displacement between the time interval from t = 2 s to t = 4 s (b) the time at which the velocity will be zero (c) the instantaneous velocity and acceleration as functions of time.
+13. A block is given an initial velocity of 15 m/s up a frictionless 40° incline. How far up the incline does the block slide before coming to rest?
+14. A footballer kicks a football so that it leaves the ground at an angle of 30° with a velocity of 30 m/s. The ball is aimed directly at an opposing player 90 m away who, the moment the ball is kicked, starts to run forward to catch the ball. At what speed must he run to just catch the ball?
+15. An object of mass m is sliding with speed v_o at some instant across a level tabletop, with which its coefficient of kinetic friction is μk. It then moves through a distance d and comes to rest. What is the expression for the speed v_o in terms of other quantities?
+16. A 20 g bullet is fired into a stationary block of wood (m = 6 kg). The bullet imbeds into the block. The speed of the bullet-plus-wood combination immediately after the collision is 0.8 m/s. What was the original speed of the bullet?
+17. The electric motor of a model train accelerates the train from rest to 0.62 m/s in 21.0 ms. The total mass of the train is 875 g. Find the average power delivered to the train during the acceleration.
+18. A 60.0 kg wooden block is placed on a concrete floor. If the coefficient of friction between the surfaces is 0.40, what is the magnitude of the minimum horizontal force needed to set the block in motion?
+19. A ball of mass 0.5 kg starts at rest and slides down a frictionless track, as shown (in original). It leaves the track horizontally, striking the ground. (a) At what height above the ground does the ball start to move? (b) What is the speed of the ball when it leaves the track? (c) What is the kinetic energy of the ball when it hits the ground?
+20. Three particles of masses m1 = 2 kg, m2 = 3 kg, m3 = 5 kg are located at positions r1 = (1, 2, 0) m, r2 = (2, 0, 1) m, r3 = (0, 1, 3) m. Find the center of mass of the system.
+
+ASSIGNMENT-I (Group work, due Tahsas 10 & 11, 2018 E.C)
+Using the worksheet questions above, answer the following:
+(1) From Chapter 1 — Questions 6, 9 and 11
+(2) From Chapter 2 — Questions 4, 14, 16 and 19

@@ -1,0 +1,43 @@
+ADDIS ABABA UNIVERSITY — College of Natural and Computational Sciences, Department of Physics
+Phys 1011 Worksheet I — Conceptual Questions & Problems (10 pages)
+Source: https://www.scribd.com/document/612619692/Phys-1011-Workshet1
+Note: vector symbols in the original PDF did not survive web extraction; A, B denote vectors, arrows implied.
+=====================================================================
+
+CONCEPTUAL QUESTIONS
+1. Explain the difference between dimensions and units.
+2. Can you add or subtract quantities with different units? Can you multiply or divide quantities with different units?
+3. If C is the vector sum of A and B, C = A + B, what must be true about the directions and magnitudes of A and B if C = A + B (magnitudes add)? What must be true about the directions and magnitudes of A and B if C = 0?
+4. If A_x = 0 for a vector in the xy-plane, does it follow that A = A_y? What can you say about A_x and A_y?
+5. Can you find a vector quantity that has a magnitude of zero but components that are different from zero? Explain. Can the magnitude of a vector be less than the magnitude of any of its components? Explain.
+6. The figure (in original) shows a position-versus-time graph for the motion of objects A and B as they move along the same axis. (a) At the instant t = 1 s, is the speed of A greater than, less than, or equal to the speed of B? Explain. (b) Do objects A and B ever have the same speed? If so, at what time or times? Explain.
+7. You toss a small ball vertically up in the air. How are the velocity and acceleration vectors of the ball oriented with respect to one another during the ball's flight up and down?
+8. If the acceleration of an object is zero and its velocity is nonzero, what can you say about the motion of the object?
+9. The figure (in original) shows the position-versus-time graph for a moving object. At which letter point or points: (a) Is the object moving the slowest? (b) Is the object moving the fastest? (c) Is the object at rest? (d) Is the object moving to the left?
+10. Under what conditions is average velocity equal to instantaneous velocity?
+11. Under what conditions does the magnitude of the average velocity equal the average speed?
+12. Can an object's acceleration be in the opposite direction to its motion? Explain.
+13. Give examples of motion in which the directions of the velocity and acceleration vectors are (a) opposite, (b) the same, and (c) mutually perpendicular.
+14. "In general, the normal force is not equal to the weight." Give an example where the two forces are equal in magnitude and at least two examples where they are not.
+15. To push a box up an inclined plane, is the force required smaller if you push horizontally or if you push parallel to the incline? Why?
+16. Can the magnitude of the displacement of a particle be less than the distance traveled by the particle along its path? Can its magnitude be more than the distance traveled? Explain.
+17. For an observer in an inertial reference frame, identify which (if any) of the following statements are true and which (if any) are false. (a) If there are no forces acting on an object, it will not accelerate. (b) If an object is not accelerating, there must be no forces acting on it. (c) The motion of an object is always in the direction of the resultant force. (d) The mass of an object depends on its location.
+
+PROBLEMS
+1. How many significant figures are in each of the following numbers? (a) 4.01 (b) 4.010 (c) 4 (d) 2.00001 (e) 0.00001 (f) 1.10042 (g) 2310000
+2. Two different forces, acting on the same object, are measured. One force is 2.0031 N and the other force, in the same direction, is 3.12 N. These are the only forces acting on the object. Find the total force on the object to the correct number of significant figures.
+3. Given the equation w = xy (original: w equals product of x and y), and x = 1.1×10^? , y = 2.48×10^−? and z = 6.000, what is w, in scientific notation and with the correct number of significant figures? (See original for exact exponents.)
+4. The length and width of a rectangular room are measured to be 3.955 ± 0.005 m and 3.050 ± 0.005 m. Calculate (a) the relative and percentage errors in measuring the length and width; (b) the area of the room and its uncertainty in square meters.
+5. A car engine moves a piston with a circular cross section of 7.500 ± 0.002 cm diameter a distance of 3.250 ± 0.001 cm to compress the gas in the cylinder. (a) By what amount is the gas decreased in volume in cubic centimeters? (b) Find the uncertainty in this volume.
+6. Apply the appropriate rule for significant figures to calculate the following: (a) 1.58 x 0.03, (b) 1.4 + 2.53, (c) 2.34 x 10^2 + 4.93 (Answer: (a) 0.05, (b) 3.9, (c) 2.39 x 10^2)
+7. In the following equations, the distance x is in meters, the time t is in seconds, and the velocity v is in meters per second. What are the SI units of the constants A and B? (a) x = At + Bt^2, (b) x = At^2/(Bt) [see original], (c) v^2 = 2Ax, (d) x = A cos(Bt), (e) v^2 = 2A sqrt((B)x) [see original for exact forms]
+8. Calculate the following, round off to the correct number of significant figures, and express your result in scientific notation: (a) (200.9)x(569.3), (b) (0.000000513)x(62.3 x 10^7), (c) 28,401 + (5.78 x 10^4), (d) 63.25 / (4.17 x 10^-3).
+9. A cell membrane has a thickness of about 7 nm. How many cell membranes would it take to make a stack 1 in high?
+10. The volume of an irregularly shaped solid can be determined from the volume of water it displaces. A graduated cylinder contains 19.9 mL of water. When a small piece of galena, an ore of lead, is added, it sinks and the volume increases to 24.5 mL. What is the volume of the piece of galena in cm^3, m^3, and in L?
+11. Calculate the result of each of the following problems to the correct number of significant digits: (a) (see original — fractional expression), (b) (92.12)(0.12)/223.02, (c) 1.41×10^7 − 5.98×10^? , (d) (see original).
+12. A laboratory instructor gives a sample of amino-acid powder to each of four students, I, II, III, and IV, and they weigh the samples. The true value is 8.72 g. Their results for three trials are I: 8.72 g, 8.74 g, 8.70 g; II: 8.56 g, 8.77 g, 8.83 g; III: 8.50 g, 8.48 g, 8.51 g; IV: 8.41 g, 8.72 g, 8.55 g. (a) Calculate the average mass from each set of data, and tell which set is the most accurate. (b) Precision is a measure of the average of the deviations of each piece of data from the average value. Which set of data is the most precise? Is this set also the most accurate? (c) Which set of data is both the most accurate and most precise? (d) Which set of data is both the least accurate and least precise?
+13. For the vectors A and B shown in Fig. 1 (in original), (I) use a scale drawing to find the magnitude and direction of (a) the vector sum A + B and (b) the vector difference A − B. Use your answers to find the magnitude and direction of (c) A − B and (d) B − A. (II) Find the x and y components of each vector and calculate (a) the magnitude and direction of 2A − 3B + C, A + B + C + D, and −2C − 5B + 4D; (b) find a unit vector in the direction of A + B, B − A, and A + B + C + D.
+14. A spelunker is surveying a cave. She follows a passage 180 m straight west, then 210 m in a direction 45° east of south, and then 280 m at 30° east of north. After a fourth unmeasured displacement, she finds herself back where she started. Use a scale drawing to determine the magnitude and direction of the fourth displacement.
+15. A car travels north at 30.0 m/s for 10.0 min. It then travels south at 40.0 m/s for 20.0 min. What are the total distance the car travels and its displacement?
+16. You ride your bike along a straight line from your house to a store 1000 m away. On your way back, you stop at a friend's house which is halfway between your house and the store. a) What is your displacement? b) What is the total distance traveled? After talking to your friend, you continue to your house. When you arrive back at your house, c) What is your displacement? d) What is the distance you have traveled?
+17. A fellow student found in the performance data for his new car the velocity-versus-time graph shown in Fig. 2 (in original). a) Find the average acceleration of the car during each of the segments I, II, and III. b) What is the distance traveled by the car from t = 0 s to t = 6 s? from t = 6 s to t = 12 s? from t = 12 s to t = 24 s?
