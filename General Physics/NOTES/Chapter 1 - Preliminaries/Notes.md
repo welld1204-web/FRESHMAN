@@ -1,11 +1,27 @@
-# Chapter 1 — Preliminaries
+# Chapter 1 — Preliminaries · The Full Notes ⭐
 
-> **Source:** MoSHE *General Physics Module* (Phys 1011, October 2019) — Chapter One,
-> "Preliminaries", module pages 1–14. Every definition, table, worked example, activity
-> and review problem below is taken from that chapter of the module.
+> **Primary source (everything below follows it):** MoSHE *General Physics Module*
+> (Phys 1011, October 2019) — Chapter One "Preliminaries", module pages 1–14.
 > Full module PDF: [`RESOURCE/MoSHE_General_Physics_Module_Phys1011_2019_OFFICIAL.pdf`](../../RESOURCE/MoSHE_General_Physics_Module_Phys1011_2019_OFFICIAL.pdf)
+>
+> **Enriched with** the best open textbooks in our [`RESOURCE/`](../../RESOURCE) folder —
+> every extra box, example and figure is labeled with its source. Worked solutions were
+> computed and checked numerically.
 
-## Chapter map (module contents)
+## 📚 References used in this note (all free, all in RESOURCE)
+
+| Source | Where | Use it for |
+| --- | --- | --- |
+| **MoSHE General Physics Module** (2019), Ch. 1 | [`RESOURCE/…Module…OFFICIAL.pdf`](../../RESOURCE/MoSHE_General_Physics_Module_Phys1011_2019_OFFICIAL.pdf) | The official course text — definitions, Tables 1.1–1.3, examples, review problems |
+| **OpenStax, College Physics 2e**, Ch. 1 (§1.1–1.4) & Ch. 3 (§3.2–3.3) | [`RESOURCE/OpenStax_College_Physics_2e_Full.pdf`](../../RESOURCE/OpenStax_College_Physics_2e_Full.pdf) · [openstax.org/college-physics-2e](https://openstax.org/books/college-physics-2e) | Models vs theories vs laws, metric prefixes, order of magnitude, accuracy & precision, vector methods |
+| **OpenStax, University Physics Vol. 1**, Ch. 1 (§1.1–1.7) & Ch. 2 (§2.1–2.3) | [`RESOURCE/OpenStax_University_Physics_Vol1_998p.pdf`](../../RESOURCE/OpenStax_University_Physics_Vol1_998p.pdf) · [openstax.org/university-physics-v1](https://openstax.org/books/university-physics-volume-1) | Rigorous SI standards history, dimensional analysis, Fermi estimates, vector algebra |
+| **Worked Examples in Introductory Physics** (TTU, 172 pp.) | [`RESOURCE/Worked_Examples_Introductory_Physics_TTU_172p.pdf`](../../RESOURCE/Worked_Examples_Introductory_Physics_TTU_172p.pdf) | Extra solved problems to drill after this note |
+| **Introductory Physics Problem Solving** (Lehman, 121 pp.) | [`RESOURCE/Introductory_Physics_Problem_Solving_Lehman_121p.pdf`](../../RESOURCE/Introductory_Physics_Problem_Solving_Lehman_121p.pdf) | Problem-solving strategy practice |
+| **PhET: Vector Addition** (interactive) | [phet.colorado.edu → Vector Addition](https://phet.colorado.edu/en/simulations/vector-addition) | *Play* with head-to-tail and component addition until it clicks |
+
+---
+
+## 🗺️ Chapter map (module contents)
 
 | Module section | Topic |
 | --- | --- |
@@ -14,12 +30,21 @@
 | 1.3 | Vectors: Composition and Resolution — 1.3.1 Vector Representation · 1.3.2 Vector Addition · 1.3.3 Components of Vector |
 | 1.4 | Unit Vector — 1.4.1 Vector Addition in Unit Vector Notation · 1.4.2 Finding a Unit Vector |
 
+**Contents:** [Intro](#introduction-module-page-1) · [1.1 Quantities & SI](#11-physical-quantities-and-measurement) · [1.2 Uncertainty & Sig-Figs](#12-uncertainty-in-measurement-and-significant-digits) · [1.3 Vectors](#13-vectors-composition-and-resolution) · [1.4 Unit Vectors](#14-unit-vector) · [Module Summary](#chapter-summary-module-page-13) · [Review Problems + Solutions](#chapter-review-questions-and-problems-module-page-14) · [Extra Practice](#extra-practice-set-answers-hidden--all-verified-numerically) · [Cheat Sheet](#one-page-cheat-sheet)
+
+---
+
 ## Introduction (module, page 1)
 
 - The word **physics** comes from the Greek word meaning **"nature"**. Physics is treated as the base for science, with various applications for the ease of life.
 - Physics deals with **matter in relation to energy** and the **accurate measurement of natural phenomena** — so physics is inherently a **science of measurement**.
 - The fundamentals of physics form the basis for the study and development of engineering and technology.
 - **Measurement** consists of the comparison of an unknown quantity with a known fixed quantity. The quantity used as the standard of measurement is called a **unit**. (Module example: a vegetable vendor weighs vegetables in units like the kilogram.)
+
+> 💡 **Why this chapter matters for your exam:** every later chapter (kinematics, fluids,
+> electricity…) assumes you can (a) convert units fast, (b) keep significant figures
+> correct, and (c) break vectors into components. Mid/final questions in this chapter are
+> almost always *conversion + sig-figs + vector addition* — exactly what's drilled below.
 
 ### Learning objectives (module, page 1)
 
@@ -72,6 +97,9 @@ Module examples: **length, mass, time**.
 Quantities that **can be expressed in terms of fundamental quantities**.
 Module examples: **area, volume, density**.
 
+> 🧠 **Memory hook:** if you can *build it* from length, mass, time (+ the other base
+> quantities), it's **derived**. If it's an independent *ingredient*, it's **basic**.
+
 ### 1.1.2 SI Units: Basic and Derived Units
 
 **SI** is the abbreviation for the **International System of Units** — the modern form of the metric system, finally agreed upon at the **eleventh International Conference of Weights and Measures, 1960**. It is adopted throughout the world, remains the primary system of measurement, and is logically superior to any other system. It is **built upon 7 basic quantities** and their associated units.
@@ -99,6 +127,46 @@ Module examples: **area, volume, density**.
 | Power | $W$ | watt (W) | (energy per unit time) $\mathrm{kg\cdot m^{2}\cdot s^{-3}}$ |
 
 > **Study tip:** notice how each derived unit is built purely from the base units of Table 1.1 — that is exactly what the "dimension" column records (e.g. a newton is $\mathrm{kg\cdot m/s^2}$).
+
+> 🌍 **Did you know? (OpenStax University Physics, §1.2)** — since **20 May 2019** every SI
+> unit is pinned to fixed constants of nature, not to objects:
+> the **second** = 9 192 631 770 periods of the cesium-133 atom's radiation; the **meter**
+> = the distance light travels in 1/299 792 458 s; the **kilogram** is defined by fixing the
+> Planck constant $h = 6.62607015\times10^{-34}\ \mathrm{J\cdot s}$ (the old platinum-iridium
+> cylinder in Paris is retired!); the **ampere** by fixing $e = 1.602176634\times10^{-19}$ C;
+> the **kelvin** by fixing Boltzmann's $k_B = 1.380649\times10^{-23}\ \mathrm{J/K}$; the
+> **mole** by fixing $N_A = 6.02214076\times10^{23}\ \mathrm{mol^{-1}}$.
+
+### Metric prefixes — module objectives 4 & 7 (supplement from OpenStax College Physics 2e, §1.2, Table 1.2)
+
+The module's learning objectives ask you to "express quantities using metric prefixes" and
+"become familiar with prefixes for larger and smaller quantities". Learn this table — it is
+the fastest way to handle very large or very small numbers:
+
+| Prefix | Symbol | Value | Prefix | Symbol | Value |
+| --- | :---: | :---: | --- | :---: | :---: |
+| tera | T | $10^{12}$ | deci | d | $10^{-1}$ |
+| giga | G | $10^{9}$ | centi | c | $10^{-2}$ |
+| mega | M | $10^{6}$ | milli | m | $10^{-3}$ |
+| kilo | k | $10^{3}$ | micro | µ | $10^{-6}$ |
+| hecto | h | $10^{2}$ | nano | n | $10^{-9}$ |
+| deka | da | $10^{1}$ | pico | p | $10^{-12}$ |
+
+- **Order of magnitude** (OpenStax CP2e §1.2): the scale of a value expressed as a power of ten — a "ballpark" class of size. 800 and 900 are the same order of magnitude ($\sim10^{3}$); 800 and 8 000 are not. Physicists use orders of magnitude to compare huge ranges, e.g. an atom ($\sim10^{-10}$ m) vs. its nucleus ($\sim10^{-15}$ m) — five orders of magnitude smaller.
+- Example: $5.08\times10^{-4}$ m (module example below) = **0.508 mm** = **508 µm** — one length, three prefix choices.
+
+### Models, Theories, and Laws — module objective 5 (supplement from OpenStax College Physics 2e, §1.1)
+
+The module lists "describe the relationships among models, theories, and laws" as a learning
+objective; the clearest short treatment is OpenStax §1.1:
+
+- **Law** — uses **concise language, often a single equation**, to describe a *generalized pattern in nature* supported by scientific evidence and repeated experiments (e.g. Newton's law of gravitation). Laws are intrinsic to the universe: humans did not create them and cannot change them — we only **discover** them.
+- **Theory** — an **explanation for patterns in nature** that is supported by scientific evidence and **verified multiple times by various groups of researchers** (e.g. the kinetic theory of gases). Some theories include models; others don't.
+- **Model** — a **representation of something often too difficult (or impossible) to display directly**, accurate only in limited situations (e.g. the planetary model of the atom). Models help analyze scenarios and run simulations.
+
+> They are **not ranked** "law > theory": a law *describes* **what** happens, a theory
+> explains **why**, a model helps us *picture* it. All three must survive experiments — if a
+> verifiable experiment contradicts them, they must be modified or overthrown.
 
 ### 1.1.3 Conversion of Units
 
@@ -131,11 +199,33 @@ To convert a quantity from one unit to another, **multiply by conversion factors
 
    $$2500 \times 0.4536\ \text{kg} = 1134.0\ \text{kg}$$
 
-**Activities (module, page 4)** — practice these:
+> 🔧 **The factor-label method (dimensional analysis), applied.** Treat units like algebra
+> that cancels. The module's Activity 1 solved step by step:
+> $$30\ \frac{\text{km}}{\text{hr}} \times \frac{1000\ \text{m}}{1\ \text{km}} \times \frac{1\ \text{mi}}{1609.34\ \text{m}} = 18.64\ \frac{\text{mi}}{\text{hr}}$$
+> km cancels, m cancels, only mi/hr survives. This "chain of fractions" is *the* technique
+> objective 8 means by "unit conversion (dimensional analysis)".
+
+**Activities (module, page 4)** — try, then open the worked answers:
 
 1. A common Ethiopian cities speed limit is 30 km/hr. What is this speed in miles per hour?
 2. How many cubic meters are in 250,000 cubic centimeters?
 3. The average body temperature of a house cat is 101.5 °F. What is this temperature in Celsius?
+
+<details>
+<summary>✅ Worked answers to the module activities (computed & checked)</summary>
+
+1. **30 km/hr = 18.64 mi/hr** — chain: $30 \times 1000/1609.34$ (using Table 1.3: 1 mile = 1609.34 m).
+2. **250 000 cm³ = 0.25 m³.** ⚠️ Cube the length factor: $1\ \text{m} = 100\ \text{cm}$ ⇒ $(100)^3 = 10^{6}\ \text{cm}^3$ per m³ ⇒ $250\,000 / 10^{6} = 0.25$. (For areas: $1\ \text{m}^2 = 10^{4}\ \text{cm}^2$.)
+3. **101.5 °F = 38.61 °C** — Table 1.3 rule: $(101.5-32)\times\tfrac{5}{9} = 69.5\times\tfrac{5}{9} = 38.61$. (An actual healthy cat runs ≈ 38–39 °C — physics checks out. 🐈)
+
+</details>
+
+> ⚠️ **Common pitfalls (exam-killers):**
+> - Forgetting to **square/cube** conversion factors for areas/volumes (pitfall #2 above).
+> - Mixing **temperature *scales*** (°C, °F — affine, need offset) with **temperature
+>   *differences*** (Δ1 °C = Δ1 K exactly).
+> - Writing 1 kg = 2.2 lb "in SI" — the pound is a unit of *weight (force)* in everyday US
+>   usage; Table 1.3's ×0.4536 converts the mass unit **pound-mass**.
 
 ---
 
@@ -154,12 +244,27 @@ $$\text{Measurement} = x_{best} \pm \sigma_x$$
 
 where $x_{best}$ = best estimate of the measurement, and $\sigma_x$ = uncertainty (error) in the measurement.
 
+![Uncertainty band for L = 5.7 ± 0.05 cm](figures/fig-uncertainty.svg)
+
+> 🎯 **Accuracy vs Precision** (OpenStax College Physics 2e, §1.3 — know the difference!):
+> - **Accuracy** = how close a measurement is to the **true/correct value**.
+> - **Precision** = how close **repeated measurements** are to **each other** (small spread).
+> - OpenStax's paper example: a sheet labeled 11.0 in measured as 11.1, 11.2, 10.9 in →
+>   *accurate* (near 11.0) and *precise* (spread only 0.3 in). Measurements 10.9, 11.1,
+>   11.9 in would be accurate-ish but **imprecise**. An out-of-calibration instrument can be
+>   very precise yet systematically inaccurate — which is exactly the module's next point.
+> - **Uncertainty** is the quantitative measure of that spread (module: "a disclaimer for
+>   your measured values" — e.g. 45 000 ± 500 miles on a car's odometer).
+
 ### The two categories of errors (module, page 5)
 
 1. **Systematic Error** — errors resulting from **measuring devices being out of calibration**. Such measurements are **consistently too small or too large**. They can be **eliminated by pre-calibrating** against a known, trusted standard.
 2. **Random Errors** — errors resulting in the **fluctuation of measurements of the same quantity about the average**; the measurements are equally probable of being too large or too small. They generally result from the **fineness of scale division** of a measuring device.
 
 Systematic errors are generally "simple" to analyze; random errors require more careful (statistical) analysis, which is the module's focus here.
+
+> 🧠 **Memory hook:** *Systematic = Same shift every time* (calibration → fix by recalibrating).
+> *Random = Racous scatter* (statistics → reduce by averaging / finer reading).
 
 ### Rules of thumb for the uncertainty of a single measurement (module, pages 5–6)
 
@@ -219,6 +324,10 @@ Systematic errors are generally "simple" to analyze; random errors require more 
 
   Applying Rule 1 (3.2 cm has only 2 significant digits), the result should be reported as **28 cm²**.
 
+> ➕ **Two more drills (same rules, new numbers):**
+> - $(3.456\ \text{m})(2.1\ \text{m}) = 7.2576\ \text{m}^2 \Rightarrow$ Rule 1 (2.1 has 2 sig-figs) → **7.3 m²**
+> - $15.75 + 3.2 + 8.104 = 27.054 \Rightarrow$ Rule 2 (3.2 has 1 decimal place) → **27.1**
+
 **In general, to determine significant digits in a given number (module, page 7):**
 
 1. All non-zero numbers are significant.
@@ -226,6 +335,10 @@ Systematic errors are generally "simple" to analyze; random errors require more 
 3. Zeros that do nothing but **set the decimal point** are not significant — both 0.000098 and 0.98 contain two significant figures.
 4. Zeros that **aren't needed to hold the decimal point** are significant — e.g. 4.00 has three significant figures.
 5. Zeros that **follow** a number *may* be significant.
+
+> ⚠️ **Exam trap:** Rule 1 counts **significant digits**; Rule 2 counts **decimal places**.
+> Mixing them up ("15.16 → two sig-figs → 15 cm") loses easy marks. Multiply → sig-figs;
+> add → decimal places. That's the whole game.
 
 ---
 
@@ -238,6 +351,24 @@ Systematic errors are generally "simple" to analyze; random errors require more 
 | Specified by | a number and a unit (magnitude only) | both a **magnitude** and a **direction** in space |
 | Obeys | the rules of ordinary algebra | the laws of vector algebra |
 | Examples | mass, time, volume, speed, … | displacement, velocity, acceleration, momentum, … |
+
+<details>
+<summary>🎯 Quick self-quiz: scalar or vector? (click to reveal)</summary>
+
+| Quantity | Answer | Why |
+| --- | --- | --- |
+| distance | scalar | just a number of meters |
+| displacement | vector | "3 km *east*" has direction |
+| speed | scalar | no direction (60 km/hr) |
+| velocity | vector | 60 km/hr *north* |
+| mass | scalar | 5 kg has no direction |
+| weight | vector | it's a **force** — points down (contrasts with mass!) |
+| temperature | scalar | no direction |
+| acceleration | vector | magnitude + direction |
+| energy / work | scalar | despite being "big" physics quantities |
+| force | vector | pushes/pulls in a direction |
+
+</details>
 
 ### 1.3.1 Vector Representation
 
@@ -272,6 +403,14 @@ A single vector obtained by adding two or more vectors is called the **resultant
 - The resultant is the vector drawn from the **tail of the first vector** to the **head of the last vector**.
 - For three vectors the resultant $\vec R = \vec A + \vec B + \vec C$ is the vector that **completes the polygon** (module Figure 1).
 
+![Head-to-tail polygon method](figures/fig-head-to-tail.svg)
+
+> ✏️ **Worked example 1 (graphical idea, done with components).** Walk **3 km east**, then
+> **4 km north**. Head-to-tail sketch ⇒ R closes the triangle:
+> $$R = \sqrt{3^2 + 4^2} = 5\ \text{km}, \qquad \phi = \tan^{-1}\!\left(\tfrac{4}{3}\right) = 53.1^{\circ}\ \text{north of east}$$
+> Classic 3-4-5 triangle — and proof that **magnitudes don't simply add** (3 + 4 ≠ 5!).
+> Try the same sum visually in the [PhET Vector Addition sim](https://phet.colorado.edu/en/simulations/vector-addition).
+
 **B. Parallelogram law of vector addition**
 
 - The resultant $\vec R$ of two vectors $\vec A$ and $\vec B$ is the **diagonal of the parallelogram** for which $\vec A$ and $\vec B$ are adjacent sides. All three vectors $\vec A$, $\vec B$, $\vec R$ are **concurrent** (module Figure 2). $\vec A$ and $\vec B$ are also called the **components** of $\vec R$.
@@ -287,12 +426,24 @@ A single vector obtained by adding two or more vectors is called the **resultant
 
   $$\frac{\sin\phi}{B} = \frac{\sin\psi}{A} = \frac{\sin(180^\circ - \theta)}{R} = \frac{\sin\theta}{R}$$
 
+![Parallelogram law with cosine and sine laws](figures/fig-parallelogram.svg)
+
+> ✏️ **Worked example 2 (parallelogram law).** $\vec A$ = 6 units, $\vec B$ = 4 units,
+> $\theta = 60^{\circ}$ between them.
+> - Cosine law: $R = \sqrt{6^2 + 4^2 + 2(6)(4)\cos 60^{\circ}} = \sqrt{36+16+24} = \sqrt{76} = 8.72$ units
+> - Sine law: $\sin\phi = \dfrac{B\sin(180^{\circ}-60^{\circ})}{R} = \dfrac{4\sin 120^{\circ}}{8.72} = 0.397 \Rightarrow \phi = 23.4^{\circ}$ from $\vec A$
+> - ✔ Check with components: $\vec R = (6+4\cos60^{\circ},\ 4\sin60^{\circ}) = (8,\ 3.46)$ → $|\vec R| = 8.72$, angle $= \tan^{-1}(3.46/8) = 23.4^{\circ}$. Both methods agree.
+>
+> **Special cases worth memorizing:** θ = 0° ⇒ R = A + B (parallel, same direction); θ = 180° ⇒ R = |A − B| (anti-parallel); θ = 90° ⇒ R = √(A²+B²) (Pythagoras).
+
 ### 1.3.3 Components of Vector
 
 Resolving a vector means replacing it by two (or three) perpendicular vectors that add up to the original. Considering module Figure 3, the components of $\vec A$ are obtained with the trigonometric functions **sine** and **cosine**:
 
 - $A_x = A\cos\theta$ — the $x$ component of $\vec A$
 - $A_y = A\sin\theta$ — the $y$ component of $\vec A$
+
+![Resolving vector A into components](figures/fig-components.svg)
 
 The components $A_x$ and $A_y$ can be **added to give back $\vec A$** as their resultant: $\vec A = \vec A_x + \vec A_y$. Because they are **perpendicular**, the magnitude of the resultant is obtained with **Pythagoras' theorem**:
 
@@ -306,12 +457,25 @@ The direction angles the vector makes with the three axes are given by the **dir
 
 $$\cos\alpha = \frac{A_x}{A}, \qquad \cos\beta = \frac{A_y}{A}, \qquad \cos\gamma = \frac{A_z}{A}$$
 
+> ✏️ **Worked example 3 (resolution).** $\vec A$ = 10 units at $\theta = 35^{\circ}$ from the +x axis:
+> $$A_x = 10\cos 35^{\circ} = 8.19, \qquad A_y = 10\sin 35^{\circ} = 5.74$$
+> And a 3-D one: $\vec A = 2\hat i + 3\hat j + 6\hat k$ ⇒ $A = \sqrt{4+9+36} = 7$, with direction cosines $\cos\alpha = 2/7$, $\cos\beta = 3/7$, $\cos\gamma = 6/7$.
+
+> ⚠️ **Common pitfalls:**
+> - Adding magnitudes directly only works when vectors are **parallel** — otherwise you must
+>   use the cosine law or components ("3 km east + 4 km north ≠ 7 km").
+> - Always define angles **from the +x axis** (counter-clockwise positive) before resolving;
+>   then $A_x = A\cos\theta$, $A_y = A\sin\theta$ work automatically — including for angles
+>   in the 2nd/3rd quadrants (the minus signs come out of the cosine/sine by themselves).
+
 ---
 
 ## 1.4 Unit Vector
 
 - A **unit vector** is a vector of **magnitude one**. It is **dimensionless**, and its sole purpose is to **point** — to specify a given direction. It is usually denoted with a **"hat"**: $\hat n$.
 - The special Cartesian coordinate unit vectors (module, page 11): for a 2-D $x$–$y$ system, $\hat i$ points in the $+x$ direction and $\hat j$ in the $+y$ direction; for a 3-D system we add $\hat k$ pointing in the $+z$ direction.
+
+![A unit vector is a pure pointer](figures/fig-unit-vector.svg)
 
 **Any vector can be expressed in terms of unit vectors.** For $\vec A$ with components $A_x, A_y, A_z$:
 
@@ -344,6 +508,12 @@ $$\hat r = \frac{\vec r}{r} = \frac{x}{r}\hat i + \frac{y}{r}\hat j + \frac{z}{r
 
 This makes it clear that **each component of the unit vector is simply the corresponding component of the original vector divided by the magnitude** of the original vector.
 
+> ✏️ **Worked examples 4 (unit vectors).**
+> - $\vec A = 3\hat i + 4\hat j$: $|\vec A| = \sqrt{9+16} = 5$ ⇒ $\hat A = 0.6\,\hat i + 0.8\,\hat j$. (Check: $0.6^2+0.8^2 = 1$ ✓)
+> - $\vec A = 2\hat i - 2\hat j + \hat k$: $|\vec A| = \sqrt{4+4+1} = 3$ ⇒ $\hat A = \tfrac{2}{3}\hat i - \tfrac{2}{3}\hat j + \tfrac{1}{3}\hat k \approx 0.667\hat i - 0.667\hat j + 0.333\hat k$.
+>
+> **Sanity check every unit vector:** the squares of its components must sum to 1.
+
 ---
 
 ## Chapter summary (module, page 13)
@@ -372,3 +542,123 @@ This makes it clear that **each component of the unit vector is simply the corre
 3. If $\vec A = 6\hat i - 8\hat j$, $\vec B = -8\hat i + 3\hat j$ and $\vec C = 26\hat i + 19\hat j$, find $a$ and $b$ such that $a\vec A + b\vec B + \vec C = \vec 0$.
 
 4. Find a unit vector in the direction of the resultant of vectors $\vec A = 2\hat i - 3\hat j + \hat k$, $\vec B = \hat i + \hat j + 2\hat k$ and $\vec C = 3\hat i - 2\hat j + 4\hat k$.
+
+### 💡 Worked solutions (computed and numerically verified — try first!)
+
+<details>
+<summary><b>Solution 1</b> — magnitude/direction of A ± B</summary>
+
+Resolve $\vec A$: $A_x = 8\cos45^\circ = 5.66$, $A_y = 8\sin45^\circ = 5.66$. $\vec B = (-8, 0)$.
+
+**a)** $\vec A + \vec B = (5.66 - 8,\ 5.66) = (-2.34,\ 5.66)$
+$|\vec A + \vec B| = \sqrt{(-2.34)^2 + 5.66^2} = \mathbf{6.12}$ **units**.
+Direction: the vector lies in the 2nd quadrant; reference angle $\tan^{-1}(5.66/2.34) = 67.5^\circ$ ⇒ angle from +x axis $= 180^\circ - 67.5^\circ = \mathbf{112.5^\circ}$.
+
+**b)** $\vec A - \vec B = (5.66 + 8,\ 5.66) = (13.66,\ 5.66)$
+$|\vec A - \vec B| = \sqrt{13.66^2 + 5.66^2} = \mathbf{14.78}$ **units**, at $\tan^{-1}(5.66/13.66) = \mathbf{22.5^\circ}$ from the +x axis.
+
+</details>
+
+<details>
+<summary><b>Solution 2</b> — magnitudes of A + B and 2A − B</summary>
+
+**a)** $\vec A + \vec B = (3+2)\hat i + (-4+3)\hat j + (4-7)\hat k = 5\hat i - \hat j - 3\hat k$
+$\quad|\vec A + \vec B| = \sqrt{25 + 1 + 9} = \sqrt{35} = \mathbf{5.92}$
+
+**b)** $2\vec A - \vec B = (6-2)\hat i + (-8-3)\hat j + (8+7)\hat k = 4\hat i - 11\hat j + 15\hat k$
+$\quad|2\vec A - \vec B| = \sqrt{16 + 121 + 225} = \sqrt{362} = \mathbf{19.03}$
+
+</details>
+
+<details>
+<summary><b>Solution 3</b> — find a and b</summary>
+
+Write the vector equation component by component:
+
+- $x$: $6a - 8b + 26 = 0$
+- $y$: $-8a + 3b + 19 = 0$
+
+From the first: $6a = 8b - 26$. Substituting into the second (×6): $-8(8b-26) + 18b + 114 = 0 \Rightarrow -64b + 208 + 18b + 114 = 0 \Rightarrow 46b = 322 \Rightarrow \mathbf{b = 7}$, and then $a = (56-26)/6 = \mathbf{5}$.
+
+Check: $5(6\hat i - 8\hat j) + 7(-8\hat i + 3\hat j) + 26\hat i + 19\hat j = (30-56+26)\hat i + (-40+21+19)\hat j = \vec 0$ ✓
+
+</details>
+
+<details>
+<summary><b>Solution 4</b> — unit vector of the resultant</summary>
+
+$\vec R = \vec A + \vec B + \vec C = (2+1+3)\hat i + (-3+1-2)\hat j + (1+2+4)\hat k = 6\hat i - 4\hat j + 7\hat k$
+
+$|\vec R| = \sqrt{36 + 16 + 49} = \sqrt{101} = 10.05$
+
+$$\hat R = \frac{6}{\sqrt{101}}\hat i - \frac{4}{\sqrt{101}}\hat j + \frac{7}{\sqrt{101}}\hat k \approx 0.597\hat i - 0.398\hat j + 0.697\hat k$$
+
+Check: $0.597^2 + 0.398^2 + 0.697^2 \approx 1$ ✓
+
+</details>
+
+---
+
+## Extra practice set (answers hidden — all verified numerically)
+
+1. Convert **72 km/hr** into m/s. *(The classic "multiply by 5/18" shortcut — prove it from Table 1.3.)*
+2. A rectangular plot is **25.0 m by 40.00 m**. Give its area with the correct number of significant figures.
+3. A digital thermometer reads **36.86 °C**. What uncertainty should be quoted?
+4. Count the significant figures: **0.00340**, **120.**, **1.0020**, **$4.50\times10^{3}$**.
+5. Compute $\dfrac{8.42\ \text{g}}{(1.71\ \text{cm})(2.05\ \text{cm})(1.3\ \text{cm})}$ with correct sig-figs.
+6. A vector has magnitude **12 units** at $60^{\circ}$ from the +x axis. Find its components.
+7. Add in unit-vector form: $\vec A = 5\hat i + 2\hat j$, $\vec B = -\hat i + 4\hat j$; give magnitude and direction of $\vec R$.
+8. Two forces, 10 N and 6 N, act at $90^{\circ}$ to each other. Find the resultant (magnitude and angle) using the parallelogram law.
+9. Find the unit vector along $\vec v = 9\hat i + 12\hat j$.
+10. A car odometer reads 45 000 ± 500 miles (OpenStax's example). Express this in the preferred form $x_{best} \pm \sigma_x$ and state the relative uncertainty as a percentage.
+
+<details>
+<summary>✅ Answers</summary>
+
+1. $72\ \tfrac{\text{km}}{\text{hr}} \times \tfrac{1000\ \text{m}}{1\ \text{km}} \times \tfrac{1\ \text{hr}}{3600\ \text{s}} = \mathbf{20\ m/s}$ (and $1\ \tfrac{\text{km}}{\text{hr}} = \tfrac{1000}{3600} = \tfrac{5}{18}\ \tfrac{\text{m}}{\text{s}}$ — that's the shortcut).
+2. $25.0 \times 40.00 = 1000.0 \Rightarrow$ Rule 1 (25.0 has 3 sig-figs) → $\mathbf{1.00\times10^{3}\ m^2}$.
+3. Digital device ⇒ $\sigma_x$ = smallest increment = $\mathbf{0.01\ ^\circ C}$ → quote $36.86 \pm 0.01$ °C.
+4. **3, 3, 5, 3** (leading zeros don't count; trailing zero after a decimal point counts; zeros within count; scientific-notation digits all count).
+5. $8.42/(1.71 \times 2.05 \times 1.3) = 8.42/4.55715 = 1.8478 \Rightarrow$ Rule 1 (1.3 has 2 sig-figs) → $\mathbf{1.8\ g/cm^3}$.
+6. $A_x = 12\cos 60^{\circ} = \mathbf{6.0}$, $A_y = 12\sin 60^{\circ} = \mathbf{10.4}$.
+7. $\vec R = (5-1)\hat i + (2+4)\hat j = 4\hat i + 6\hat j$; $|\vec R| = \sqrt{16+36} = \mathbf{6.32}$, direction $\tan^{-1}(6/4) = \mathbf{56.3^{\circ}}$ from +x.
+8. $\theta = 90^{\circ}$: $R = \sqrt{10^2 + 6^2} = \sqrt{136} = \mathbf{11.7\ N}$, at $\tan^{-1}(6/10) = \mathbf{31.0^{\circ}}$ from the 10 N force.
+9. $|\vec v| = \sqrt{81+144} = 15$ ⇒ $\hat v = \mathbf{0.6\hat i + 0.8\hat j}$ (another 3-4-5 in disguise!).
+10. $45\,000 \pm 500$ miles; relative uncertainty $= 500/45\,000 \approx \mathbf{1.1\%}$.
+
+</details>
+
+---
+
+## One-page cheat sheet
+
+| Concept | Statement | Formula / Rule |
+| --- | --- | --- |
+| Basic quantities | 7 SI base quantities | length (m), mass (kg), time (s), temperature (K), current (A), amount (mol), luminous intensity (cd) |
+| Derived quantity | built from base quantities | e.g. N = kg·m/s², J = kg·m²/s², Pa = kg/(m·s²), W = kg·m²/s³ |
+| Unit conversion | multiply by factors that cancel units | e.g. 1 in = 0.0254 m; °F→K: $(F-32)\tfrac{5}{9}+273.15$ |
+| Areas & volumes | square/cube the length factor | $1\ \mathrm{m^2} = 10^4\ \mathrm{cm^2}$, $1\ \mathrm{m^3} = 10^6\ \mathrm{cm^3}$ |
+| Measurement | always = best ± uncertainty | $x_{best} \pm \sigma_x$ |
+| Scale device | half the smallest increment | $\sigma_x = \text{increment}/2$ |
+| Digital device | the smallest increment | $\sigma_x = \text{increment}$ |
+| Sig-figs: zeros | significant if non-zero digit to its left | 5.00 → 3; 0.0005 → 1; 1.0005 → 5 |
+| Sig-figs: × ÷ | fewest **significant digits** wins (Rule 1) | $45/(3.22 \times 2.005) \to 7.0\ \mathrm{N/m^2}$ |
+| Sig-figs: + − | fewest **decimal places** wins (Rule 2) | $9.65 + 8.4 - 2.89 \to 15.2$ cm |
+| Scalar | magnitude only, ordinary algebra | mass, time, speed, energy |
+| Vector | magnitude + direction, vector algebra | displacement, velocity, force |
+| Head-to-tail | tail of first → head of last | completes the polygon |
+| Parallelogram law | R = diagonal; cosine & sine laws | $R = \sqrt{A^2+B^2+2AB\cos\theta}$ |
+| Components | resolve & rebuild with Pythagoras | $A_x = A\cos\theta,\ A_y = A\sin\theta,\ A = \sqrt{A_x^2+A_y^2}$ |
+| Direction cosines (3-D) | component over magnitude | $\cos\alpha = A_x/A$, $\cos\beta = A_y/A$, $\cos\gamma = A_z/A$ |
+| Unit vector | pure direction, magnitude 1 | $\hat r = \vec r/r$; $\vec A = A_x\hat i + A_y\hat j + A_z\hat k$ |
+| Vector addition (unit vectors) | add component by component | $\vec A + \vec B = (A_x{+}B_x)\hat i + (A_y{+}B_y)\hat j + (A_z{+}B_z)\hat k$ |
+
+---
+
+## 🔎 Where to go deeper (free, verified)
+
+- **OpenStax College Physics 2e** — [§1.2 Physical Quantities and Units](https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units) · [§1.3 Accuracy, Precision, and Significant Figures](https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures) · [§3.2 Vector Addition: Graphical Methods](https://openstax.org/books/college-physics-2e/pages/3-2-vector-addition-and-subtraction-graphical-methods) · [§3.3 Vector Addition: Analytical Methods](https://openstax.org/books/college-physics-2e/pages/3-3-vector-addition-and-subtraction-analytical-methods)
+- **OpenStax University Physics Vol. 1** — [§1.2 Units and Standards](https://openstax.org/books/university-physics-volume-1/pages/1-2-units-and-standards) · [§1.3 Unit Conversion](https://openstax.org/books/university-physics-volume-1/pages/1-3-unit-conversion) · [§1.4 Dimensional Analysis](https://openstax.org/books/university-physics-volume-1/pages/1-4-dimensional-analysis) · [§1.6 Significant Figures](https://openstax.org/books/university-physics-volume-1/pages/1-6-significant-figures) · [§2.1 Scalars and Vectors](https://openstax.org/books/university-physics-volume-1/pages/2-1-scalars-and-vectors) · [§2.2 Components of a Vector](https://openstax.org/books/university-physics-volume-1/pages/2-2-coordinate-systems-and-components-of-a-vector) · [§2.3 Algebra of Vectors](https://openstax.org/books/university-physics-volume-1/pages/2-3-algebra-of-vectors)
+- **PhET interactive:** [Vector Addition](https://phet.colorado.edu/en/simulations/vector-addition) — drag vectors, see the resultant update live.
+- For drills: the TTU *Worked Examples* and Lehman *Problem Solving* books in `RESOURCE/`, plus the exam papers in `QUIZES/`.
+
