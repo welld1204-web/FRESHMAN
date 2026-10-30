@@ -3,6 +3,18 @@ FRESHMAN GENERAL PHYSICS (Phys 1011) — COMPLETE RESOURCE COLLECTION
 All materials gathered in ONE place. Ethiopia-focused.
 =====================================================================
 
+GITHUB REPO LAYOUT (this repository):
+  General Physics/RESOURCE  - textbooks, module PDF, syllabus, question
+                              banks, worked examples, Telegram file index
+  General Physics/NOTES     - our own notes: one folder per chapter
+                              (Chapter 1 - Preliminaries ... Chapter 7 -
+                              Cross Cutting Applications of Physics).
+                              Open a chapter's Notes.md and write your
+                              notes topic by topic.
+  General Physics/QUIZES    - university mid/final exams (papers + 1,266
+                              exam photos by university), worksheets and
+                              chapter question sets
+
 --- 01_Module_and_Syllabus ---
 * MoSHE_General_Physics_Module_Phys1011_2019_OFFICIAL.pdf
   THE official national Freshman General Physics module (Ministry of Science
