@@ -6,7 +6,10 @@
 >
 > **Enriched with** the best open textbooks in our [`RESOURCE/`](../../RESOURCE) folder —
 > every extra box, example and figure is labeled with its source. Worked solutions were
-> computed and checked numerically.
+> computed and checked numerically. And the book the seniors keep recommending — **D.G.
+> Simpson's *General Physics I: Classical Mechanics*** (Prince George's CC, 2019) — has now
+> joined `RESOURCE/` and is woven through this note: SI history & trivia, the
+> problem-solver's craft, density, vector tips and a dot-product preview.
 
 ## 📚 References used in this note (all free, all in RESOURCE)
 
@@ -15,6 +18,7 @@
 | **MoSHE General Physics Module** (2019), Ch. 1 | [`RESOURCE/…Module…OFFICIAL.pdf`](../../RESOURCE/MoSHE_General_Physics_Module_Phys1011_2019_OFFICIAL.pdf) | The official course text — definitions, Tables 1.1–1.3, examples, review problems |
 | **OpenStax, College Physics 2e**, Ch. 1 (§1.1–1.4) & Ch. 3 (§3.2–3.3) | [`RESOURCE/OpenStax_College_Physics_2e_Full.pdf`](../../RESOURCE/OpenStax_College_Physics_2e_Full.pdf) · [openstax.org/college-physics-2e](https://openstax.org/books/college-physics-2e) | Models vs theories vs laws, metric prefixes, order of magnitude, accuracy & precision, vector methods |
 | **OpenStax, University Physics Vol. 1**, Ch. 1 (§1.1–1.7) & Ch. 2 (§2.1–2.3) | [`RESOURCE/OpenStax_University_Physics_Vol1_998p.pdf`](../../RESOURCE/OpenStax_University_Physics_Vol1_998p.pdf) · [openstax.org/university-physics-v1](https://openstax.org/books/university-physics-volume-1) | Rigorous SI standards history, dimensional analysis, Fermi estimates, vector algebra |
+| **D.G. Simpson, *General Physics I: Classical Mechanics*** (PGCC, 2019) — the "recommended by seniors" book ⭐ | [`RESOURCE/Simpson_General_Physics_I_Classical_Mechanics_PGCC_2019.pdf`](../../RESOURCE/Simpson_General_Physics_I_Classical_Mechanics_PGCC_2019.pdf) | The sharpest short treatment of units & their history (§3), problem-solving strategy (Ch. 4), density (Ch. 5), vector arithmetic & the dot product (Ch. 7–8), Greek alphabet (App. B), trig identities (App. C), conversion tables (App. N) and Purcell's Round-Number Handbook (App. W) |
 | **Worked Examples in Introductory Physics** (TTU, 172 pp.) | [`RESOURCE/Worked_Examples_Introductory_Physics_TTU_172p.pdf`](../../RESOURCE/Worked_Examples_Introductory_Physics_TTU_172p.pdf) | Extra solved problems to drill after this note |
 | **Introductory Physics Problem Solving** (Lehman, 121 pp.) | [`RESOURCE/Introductory_Physics_Problem_Solving_Lehman_121p.pdf`](../../RESOURCE/Introductory_Physics_Problem_Solving_Lehman_121p.pdf) | Problem-solving strategy practice |
 | **PhET: Vector Addition** (interactive) | [phet.colorado.edu → Vector Addition](https://phet.colorado.edu/en/simulations/vector-addition) | *Play* with head-to-tail and component addition until it clicks |
@@ -30,7 +34,7 @@
 | 1.3 | Vectors: Composition and Resolution — 1.3.1 Vector Representation · 1.3.2 Vector Addition · 1.3.3 Components of Vector |
 | 1.4 | Unit Vector — 1.4.1 Vector Addition in Unit Vector Notation · 1.4.2 Finding a Unit Vector |
 
-**Contents:** [Intro](#introduction-module-page-1) · [1.1 Quantities & SI](#11-physical-quantities-and-measurement) · [1.2 Uncertainty & Sig-Figs](#12-uncertainty-in-measurement-and-significant-digits) · [1.3 Vectors](#13-vectors-composition-and-resolution) · [1.4 Unit Vectors](#14-unit-vector) · [Module Summary](#chapter-summary-module-page-13) · [Review Problems + Solutions](#chapter-review-questions-and-problems-module-page-14) · [Extra Practice](#extra-practice-set-answers-hidden--all-verified-numerically) · [Cheat Sheet](#one-page-cheat-sheet)
+**Contents:** [Intro](#introduction-module-page-1) · [1.1 Quantities & SI](#11-physical-quantities-and-measurement) · [1.2 Uncertainty & Sig-Figs](#12-uncertainty-in-measurement-and-significant-digits) · [1.3 Vectors](#13-vectors-composition-and-resolution) · [1.4 Unit Vectors](#14-unit-vector) · [Module Summary](#chapter-summary-module-page-13) · [Review Problems + Solutions](#chapter-review-questions-and-problems-module-page-14) · [Extra Practice](#extra-practice-set-answers-hidden--all-verified-numerically) · [Solver's Checklist](#problem-solvers-checklist-simpson-ch-4) · [Cheat Sheet](#one-page-cheat-sheet) · [Greek Letters](#greek-letters-you-will-meet-in-phys-1011) · [Brain Gym](#brain-gym-logic-puzzles-simpson-ch-2)
 
 ---
 
@@ -45,6 +49,22 @@
 > electricity…) assumes you can (a) convert units fast, (b) keep significant figures
 > correct, and (c) break vectors into components. Mid/final questions in this chapter are
 > almost always *conversion + sig-figs + vector addition* — exactly what's drilled below.
+
+### 🌌 The big picture: a map of physics (Simpson, Ch. 1)
+
+Simpson opens his book with a one-page tour of the whole subject — handy for seeing where
+Phys 1011 fits:
+
+- **Classical mechanics** — *this course*: the motion of bodies according to Newton's laws.
+- The other major fields: **electricity & magnetism**, **optics** (light), **acoustics**
+  (sound), **thermodynamics & statistical mechanics** (heat), **quantum mechanics** (the very
+  small), **solid-state / plasma / atomic / nuclear / particle physics**, and **relativity**
+  (the very fast, plus Einstein's theory of gravity).
+- Cross-disciplinary flavors: **astrophysics, geophysics, biophysics, chemical physics,
+  mathematical physics**.
+- Physics pays off twice: it builds a **broad technical background** *and* a **problem-solving
+  skill** that transfers to engineering, biology, medicine — even finance. And Simpson's
+  promise: *"everything you learn in this course will never be obsolete."*
 
 ### Learning objectives (module, page 1)
 
@@ -137,6 +157,20 @@ Module examples: **area, volume, density**.
 > the **kelvin** by fixing Boltzmann's $k_B = 1.380649\times10^{-23}\ \mathrm{J/K}$; the
 > **mole** by fixing $N_A = 6.02214076\times10^{23}\ \mathrm{mol^{-1}}$.
 
+> 🥇 **Derived quantity in action — density (Simpson, Ch. 5).** The module names *density* as
+> a derived quantity; Simpson shows why it earns the title. **Density = mass per unit volume:**
+> $$\rho = \frac{M}{V}, \qquad \text{SI unit: } \mathrm{kg/m^3}$$
+> The anchor to memorize is water: $1\ \mathrm{g/cm^3} = 1000\ \mathrm{kg/m^3}$ — and deriving
+> that factor is itself a conversion drill:
+> $1\ \mathrm{g/cm^3} = \dfrac{10^{-3}\ \mathrm{kg}}{(10^{-2}\ \mathrm{m})^3} = 10^{3}\ \mathrm{kg/m^3}$.
+> **Specific gravity** = density relative to water — a pure number (gold: 19.3, *no units*).
+> **The gold-brick test** (Archimedes' classic trick): measure mass and volume, divide — solid
+> gold gives 19.3 g/cm³, gold-*painted* lead only 11.35 g/cm³. Impostor caught by arithmetic
+> alone.
+> 🪐 Fun: Saturn's average density is 0.687 g/cm³ — the only planet light enough to **float**
+> in water. And ice floats because water is densest at 4 °C and *expands* on freezing — which
+> is why lakes freeze top-down and fish survive the winter.
+
 ### Metric prefixes — module objectives 4 & 7 (supplement from OpenStax College Physics 2e, §1.2, Table 1.2)
 
 The module's learning objectives ask you to "express quantities using metric prefixes" and
@@ -154,6 +188,23 @@ the fastest way to handle very large or very small numbers:
 
 - **Order of magnitude** (OpenStax CP2e §1.2): the scale of a value expressed as a power of ten — a "ballpark" class of size. 800 and 900 are the same order of magnitude ($\sim10^{3}$); 800 and 8 000 are not. Physicists use orders of magnitude to compare huge ranges, e.g. an atom ($\sim10^{-10}$ m) vs. its nucleus ($\sim10^{-15}$ m) — five orders of magnitude smaller.
 - Example: $5.08\times10^{-4}$ m (module example below) = **0.508 mm** = **508 µm** — one length, three prefix choices.
+
+### Other systems of units you will meet (Simpson, §3.1, §3.3–3.4)
+
+SI is not the only system in town — the module's Table 1.3 already makes you convert British
+units, and Simpson adds the vocabulary:
+
+| System | Base units | Force / energy | Notes |
+| --- | --- | --- | --- |
+| **SI (an MKS system)** | m, kg, s (+ A, K, cd, mol) | newton / joule | the course standard |
+| **CGS** (several variants; **Gaussian** most common) | cm, g, s | dyne $= \mathrm{g\cdot cm/s^2}$ / erg $= \mathrm{g\cdot cm^2/s^2}$ | still customary in astrophysics & plasma physics; $1\ \mathrm{N} = 10^{5}\ \mathrm{dyne}$, $1\ \mathrm{J} = 10^{7}\ \mathrm{erg}$ |
+| **British engineering** | foot, **slug**, second | pound-force (lbf) | $1\ \mathrm{slug} = 14.59\ \mathrm{kg}$ (it weighs $32.174\ \mathrm{lbf}$); SI prefixes are *not* used; the everyday "pound" is really pound-mass, $1\ \mathrm{lbm} = 0.45359237\ \mathrm{kg}$ exactly |
+
+> 📐 **The radian — the SI (derived) unit of angle (Simpson, §3.2 & App. O).** One radian is
+> the angle whose arc length equals the radius; a full circle is $2\pi$ rad $= 360^\circ$:
+> $$\text{degrees} = \text{radians}\times\frac{180^\circ}{\pi}, \qquad \text{radians} = \text{degrees}\times\frac{\pi}{180^\circ}$$
+> Whenever an angle appears "bare" in a formula — e.g. arc length $s = r\theta$ — the angle
+> **must be in radians**. File this away for circular motion later in the course.
 
 ### Models, Theories, and Laws — module objective 5 (supplement from OpenStax College Physics 2e, §1.1)
 
@@ -205,6 +256,26 @@ To convert a quantity from one unit to another, **multiply by conversion factors
 > km cancels, m cancels, only mi/hr survives. This "chain of fractions" is *the* technique
 > objective 8 means by "unit conversion (dimensional analysis)".
 
+> 🎓 **Two master-class chains (Simpson, §3.6).** Same technique, longer chain — once you can
+> do these, no conversion will scare you:
+> $$60\ \frac{\text{mi}}{\text{hr}} \times \frac{5280\ \text{ft}}{1\ \text{mi}} \times \frac{1\ \text{hr}}{3600\ \text{s}} = 88\ \frac{\text{ft}}{\text{s}} \qquad \text{(highway speed in ft/s)}$$
+> and the legendary:
+> $$250\,000\ \frac{\text{furlongs}}{\text{fortnight}} = 41.58\ \frac{\text{m}}{\text{s}}$$
+> via furlong → mile → km → m and fortnight → week → day → hr → min → s. Eight factors, zero
+> panic: cancel, cancel, cancel. Even money obeys the rules — an exchange rate is just a
+> conversion factor that changes daily: at a rate of (say) $1\ \text{USD} = 130\ \text{ETB}$, a
+> 650 ETB lab manual costs $650/130 = 5.00$ USD. Method first, numbers second.
+
+> ✅ **Simpson's 6 unit-checking principles (§3.5) — dimensional analysis as an error detector.**
+> Wrong units prove a derivation *definitely* wrong; matching units make it *probably* sane.
+>
+> 1. Units on **both sides** of an equation must match.
+> 2. Only quantities with the **same units** may be added or subtracted.
+> 3. Quantities appearing as **exponents must be dimensionless**.
+> 4. Arguments of $\sin$, $\cos$, $\tan$, $\log$, $\exp$ must be **dimensionless**.
+> 5. Radians and steradians count as **dimensionless** when checking.
+> 6. For messy derived units, **break everything down to base units** (N → kg·m/s², J → kg·m²/s², …) before comparing.
+
 **Activities (module, page 4)** — try, then open the worked answers:
 
 1. A common Ethiopian cities speed limit is 30 km/hr. What is this speed in miles per hour?
@@ -226,6 +297,18 @@ To convert a quantity from one unit to another, **multiply by conversion factors
 >   *differences*** (Δ1 °C = Δ1 K exactly).
 > - Writing 1 kg = 2.2 lb "in SI" — the pound is a unit of *weight (force)* in everyday US
 >   usage; Table 1.3's ×0.4536 converts the mass unit **pound-mass**.
+
+> 🤓 **SI trivia corner (Simpson, §3.8)** — fun facts that double as safe habits:
+> - It's **megohm** and **kilohm**, not "megaohm"/"kiloohm" — the prefix drops its vowel
+>   before ohm.
+> - Medicine bottles write **mcg** for microgram so nobody misreads µg as mg. Cute, but don't
+>   imitate it in physics — write µg.
+> - Electronics often uses the prefix symbol as the decimal point: $24\ \mathrm{M\Omega}$ becomes
+>   **"24M9"**. Saves space on circuit diagrams; unofficial everywhere else.
+> - The **micron** and **millimicron** are obsolete — say **micrometer** ($10^{-6}$ m) and
+>   **nanometer** ($10^{-9}$ m). The prefix **myria-** ($10^{4}$) is dead as well.
+> - In computing, "1 kB" can mean 1000 *or* 1024 bytes; binary prefixes (KiB, MiB, …) were
+>   invented to end that argument. Physics keeps $1\ \mathrm{k} = 10^{3}$ exactly.
 
 ---
 
@@ -393,6 +476,14 @@ It is often useful to draw a picture (a line with an arrow):
 - A vector may be multiplied by a **pure number**: this merely changes the magnitude; if the number is **negative**, the direction is **reversed**.
 - When a vector is multiplied by a **scalar**, the new vector generally becomes a **different physical quantity** — e.g. velocity (vector) × time (scalar) = **displacement**.
 
+> 🖍️ **Notation corner (Simpson, §7.1) — vectors perpendicular to the page.** In 3-D diagrams
+> you will soon need arrows pointing into or out of the page (magnetic fields, torques):
+> - ⊙ — circle with a dot: the **arrowhead flying at you**, i.e. a vector **out of** the page.
+> - ⊗ — circle with a cross: the **tail feathers flying away from you**, i.e. a vector
+>   **into** the page.
+>
+> Dot = tip coming at you. Draw it once and you will never mix them up.
+
 ### 1.3.2 Vector Addition
 
 A single vector obtained by adding two or more vectors is called the **resultant vector**. The module gives two methods:
@@ -435,6 +526,17 @@ A single vector obtained by adding two or more vectors is called the **resultant
 > - ✔ Check with components: $\vec R = (6+4\cos60^{\circ},\ 4\sin60^{\circ}) = (8,\ 3.46)$ → $|\vec R| = 8.72$, angle $= \tan^{-1}(3.46/8) = 23.4^{\circ}$. Both methods agree.
 >
 > **Special cases worth memorizing:** θ = 0° ⇒ R = A + B (parallel, same direction); θ = 180° ⇒ R = |A − B| (anti-parallel); θ = 90° ⇒ R = √(A²+B²) (Pythagoras).
+
+> ✂️ **Subtraction & polar form (Simpson, §7.2–7.3) — three tips that save marks:**
+> - **Graphical subtraction:** place the two vectors **tail to tail**; then $\vec A - \vec B$
+>   runs **from the head of $\vec B$ to the head of $\vec A$** (from the vector being
+>   subtracted, towards the one you keep).
+> - **Polar form:** a plane vector can be written $\vec A = A\angle\theta$ — magnitude plus
+>   angle measured counterclockwise from the $+x$ axis. Compact for *storing*, useless for
+>   *adding*: convert to components first, add component-wise, convert back if asked.
+> - **Calculator trap:** $\tan^{-1}(A_y/A_x)$ only ever returns an angle between $-90^\circ$ and
+>   $+90^\circ$. If $A_x < 0$, **add 180°** to the calculator's answer — that is how the
+>   $112.5^\circ$ in review problem 1(a) is found.
 
 ### 1.3.3 Components of Vector
 
@@ -513,6 +615,20 @@ This makes it clear that **each component of the unit vector is simply the corre
 > - $\vec A = 2\hat i - 2\hat j + \hat k$: $|\vec A| = \sqrt{4+4+1} = 3$ ⇒ $\hat A = \tfrac{2}{3}\hat i - \tfrac{2}{3}\hat j + \tfrac{1}{3}\hat k \approx 0.667\hat i - 0.667\hat j + 0.333\hat k$.
 >
 > **Sanity check every unit vector:** the squares of its components must sum to 1.
+
+> 🔭 **Coming attraction: multiplying vectors — the dot product (Simpson, Ch. 8).** There are
+> actually *three* kinds of vector multiplication (dot, cross, direct). The first one you will
+> use is the **dot (scalar) product** — two vectors in, one **scalar** out:
+> $$\vec A \cdot \vec B = AB\cos\theta = A_xB_x + A_yB_y + A_zB_z$$
+> - **Perpendicular** vectors: $\vec A\cdot\vec B = 0$ (cos 90° = 0); **parallel** vectors:
+>   $\vec A\cdot\vec B = AB$.
+> - $\vec A\cdot\vec A = A^{2}$ — magnitude via dotting a vector with itself.
+> - Simpson's example: $\vec A = 3\hat i + 4\hat j - 2\hat k$, $\vec B = \hat i - 5\hat j + 2\hat k$
+>   ⇒ $\vec A\cdot\vec B = (3)(1) + (4)(-5) + (-2)(2) = -21$; with $A = \sqrt{29}$ and
+>   $B = \sqrt{30}$, the angle between them is $\cos^{-1}\!\left(\tfrac{-21}{\sqrt{29}\sqrt{30}}\right) = 135.4^\circ$.
+>
+> It returns in full force when you meet *work* and *energy* later this semester. (And for the
+> record: **dividing by a vector is not defined** — Simpson, §7.6.)
 
 ---
 
@@ -599,6 +715,31 @@ Check: $0.597^2 + 0.398^2 + 0.697^2 \approx 1$ ✓
 
 ---
 
+## Problem-solver's checklist (Simpson, Ch. 4)
+
+Simpson devotes an entire chapter to *how* to attack a physics problem. Condensed to eight
+moves — run this loop on every problem in this course:
+
+1. **Convert first.** Problem stated in SI? Immediately convert all data to **base SI units**
+   (m, kg, s, …). Stated in CGS or British units? Convert to *those* base units (cm, g, s /
+   ft, slug, s). Then your answer is guaranteed to come out in base units too.
+2. **Map the journey.** Write down what is **given** and what is **wanted**; select the
+   equations that connect them — and know the **conditions** under which each equation is valid.
+3. **Algebra first, numbers last.** Derive the symbolic answer, *then* substitute: fewer
+   rounding errors, unit-checkable, and reusable for new numbers.
+4. **Check the units** of the symbolic answer with the six-principle checklist in §1.1.3 above.
+5. **Check the extremes.** Sensible as $t \to \infty$? At $\theta = 0^\circ$ and $90^\circ$?
+   If not, the derivation is wrong.
+6. **Sanity-check the size.** A lab pendulum bob at 14 000 mi/hr is a red flag — never just
+   transcribe the calculator.
+7. **Carry full digits, round once at the end**, then quote 3–4 significant figures **with
+   units** on the final answer.
+8. And the master rule: *"working physics problems is a skill much like learning to play a
+   sport or musical instrument — you can't learn by watching someone else do it."* Practice
+   is the syllabus.
+
+---
+
 ## Extra practice set (answers hidden — all verified numerically)
 
 1. Convert **72 km/hr** into m/s. *(The classic "multiply by 5/18" shortcut — prove it from Table 1.3.)*
@@ -652,6 +793,65 @@ Check: $0.597^2 + 0.398^2 + 0.697^2 \approx 1$ ✓
 | Direction cosines (3-D) | component over magnitude | $\cos\alpha = A_x/A$, $\cos\beta = A_y/A$, $\cos\gamma = A_z/A$ |
 | Unit vector | pure direction, magnitude 1 | $\hat r = \vec r/r$; $\vec A = A_x\hat i + A_y\hat j + A_z\hat k$ |
 | Vector addition (unit vectors) | add component by component | $\vec A + \vec B = (A_x{+}B_x)\hat i + (A_y{+}B_y)\hat j + (A_z{+}B_z)\hat k$ |
+| Density — derived qty in action | mass ÷ volume; water is the anchor | $\rho = M/V$; $1\ \mathrm{g/cm^{3}} = 1000\ \mathrm{kg/m^{3}}$ |
+| Dot product (preview) | two vectors → scalar | $\vec A\cdot\vec B = AB\cos\theta = A_xB_x+A_yB_y+A_zB_z$; ⊥ ⇒ 0 |
+| Angles | "bare" angle ⇒ radians | $180^\circ = \pi$ rad; $s = r\theta$ |
+
+---
+
+## Greek letters you will meet in Phys 1011
+
+Half the symbols in the module are Greek (Simpson, Appendix B, prints the full alphabet).
+The regulars, with their usual jobs in this course:
+
+| Symbol | Name | Usual job | Symbol | Name | Usual job |
+| :---: | --- | --- | :---: | --- | --- |
+| $\alpha$ | alpha | angles, direction cosines | $\rho$ | rho | density |
+| $\beta$ | beta | angles | $\sigma$ | sigma | uncertainty ($\sigma_x$), stress |
+| $\theta$ | theta | the everyday angle | $\tau$ | tau | torque, time constants |
+| $\phi,\ \psi$ | phi, psi | more angles, phase | $\lambda$ | lambda | wavelength, linear density |
+| $\mu$ | mu | micro- ($10^{-6}$), friction coefficient | $\omega$ | omega | angular velocity |
+| $\pi$ | pi | the circle constant | $\Delta$ | delta (cap.) | "change in" |
+| $\varepsilon$ | epsilon | strain, permittivity | $\Sigma$ | sigma (cap.) | "sum of" |
+
+---
+
+## Brain gym: logic puzzles (Simpson Ch. 2)
+
+Simpson makes a point the module only implies: **solving a physics problem is deductive
+logic** — take the *given* facts, add the equations you select, and deduce the answer. His
+Chapter 2 even opens with logic puzzles (full solutions in his Appendix Y). Try these, then
+peek at the hidden answers:
+
+<details>
+<summary>Hat puzzle — three men in a row, hats from a set of three black + two white (click)</summary>
+
+The rear man (sees both hats) says *"I don't know"* ⇒ the two front hats are **not both
+white**. The middle man (sees the front hat) hears that, and *still* says *"I don't know"*
+⇒ the front hat is **not white**. So the front man, who sees nothing at all, announces
+correctly: **"My hat is black."** Saying *"I don't know"* is itself information!
+
+</details>
+
+<details>
+<summary>Measure exactly 2 liters — first with 4 &amp; 5 L bowls, then with 4 &amp; 3 L (click)</summary>
+
+- **4 &amp; 5 bowls:** Fill the 5, pour into the 4 → 1 L left in the 5. Empty the 4, pour the
+  1 L into it. Refill the 5, top up the 4 (takes 3 L) ⇒ **exactly 2 L left in the 5-liter bowl**.
+- **4 &amp; 3 bowls:** Fill the 3, pour into the 4. Refill the 3, top up the 4 (takes 1 L) ⇒
+  **exactly 2 L left in the 3-liter bowl**.
+
+</details>
+
+<details>
+<summary>The fork in the road — one yes/no question to a maybe-liar (click)</summary>
+
+Ask: *"If I asked you whether this road leads to the capital, would you say yes?"* A
+truth-teller answers honestly; a politician (who always lies) has to lie about his own lie.
+Either way: **"yes" ⇒ take this road; "no" ⇒ take the other.** (In Simpson's politician
+puzzle, exactly **one** of the three natives is a politician.)
+
+</details>
 
 ---
 
@@ -659,6 +859,7 @@ Check: $0.597^2 + 0.398^2 + 0.697^2 \approx 1$ ✓
 
 - **OpenStax College Physics 2e** — [§1.2 Physical Quantities and Units](https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units) · [§1.3 Accuracy, Precision, and Significant Figures](https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures) · [§3.2 Vector Addition: Graphical Methods](https://openstax.org/books/college-physics-2e/pages/3-2-vector-addition-and-subtraction-graphical-methods) · [§3.3 Vector Addition: Analytical Methods](https://openstax.org/books/college-physics-2e/pages/3-3-vector-addition-and-subtraction-analytical-methods)
 - **OpenStax University Physics Vol. 1** — [§1.2 Units and Standards](https://openstax.org/books/university-physics-volume-1/pages/1-2-units-and-standards) · [§1.3 Unit Conversion](https://openstax.org/books/university-physics-volume-1/pages/1-3-unit-conversion) · [§1.4 Dimensional Analysis](https://openstax.org/books/university-physics-volume-1/pages/1-4-dimensional-analysis) · [§1.6 Significant Figures](https://openstax.org/books/university-physics-volume-1/pages/1-6-significant-figures) · [§2.1 Scalars and Vectors](https://openstax.org/books/university-physics-volume-1/pages/2-1-scalars-and-vectors) · [§2.2 Components of a Vector](https://openstax.org/books/university-physics-volume-1/pages/2-2-coordinate-systems-and-components-of-a-vector) · [§2.3 Algebra of Vectors](https://openstax.org/books/university-physics-volume-1/pages/2-3-algebra-of-vectors)
+- **D.G. Simpson, *General Physics I*** (now in `RESOURCE/`) — [open the book](../../RESOURCE/Simpson_General_Physics_I_Classical_Mechanics_PGCC_2019.pdf) and read Ch. 3 (Units), Ch. 4 (Problem-Solving), Ch. 5 (Density), Ch. 7–8 (Vectors & dot product), App. C (the trig identities you will need all semester) and App. W — Purcell's one-page **Round-Number Handbook**, where you learn that 1 year ≈ $\pi\times10^{7}$ s (true to within 0.5 %!).
 - **PhET interactive:** [Vector Addition](https://phet.colorado.edu/en/simulations/vector-addition) — drag vectors, see the resultant update live.
 - For drills: the TTU *Worked Examples* and Lehman *Problem Solving* books in `RESOURCE/`, plus the exam papers in `QUIZES/`.
 
